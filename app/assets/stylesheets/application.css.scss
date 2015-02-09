@@ -12,22 +12,23 @@
  *
  *= require_tree .
  *= require_self
- */
+ 
 @import "bootstrap";
 
-#task-index {
-    margin: 5em;
-    #tasks {
-        .list-group-item {
-            &.task-item {
-                font-weight: bold;
-            }
-            &.completed {
-                background-color: #76EE00;
-            }
-        }
-        .btn {
-            margin-right: 2em;
-        }
-    }
-}
+*#task-index {
+*    margin: 5em;
+*    #tasks {
+*        .list-group-item {
+*            &.task-item {
+*                font-weight: bold;
+*            }
+*            &.completed {
+*                background-color: #76EE00;
+*            }
+*        }
+*        .btn {
+*            margin-right: 2em;
+*        }
+*    }
+*}
+*/
